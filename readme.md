@@ -1,6 +1,7 @@
 ## Website name :Akan Names
 Generates names depending on date of birth and gender.
-Date: 5th September 2021. Developer: Faith Njoki Muthoni
+Date: 5th September 2021. 
+Developer: Faith Njoki Muthoni
 
 ## Description
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
