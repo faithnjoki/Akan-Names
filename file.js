@@ -16,10 +16,9 @@ function generateName(){
   var femaleName = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
   var dayOfWeek = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"];
 
-  var dayOfBirth = ( ( (century/4) -2*year-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) % 7;
+  var dayOfBirth = ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date )%7;
   var dayOfBirth = Math.floor(dayOfBirth);
-  // var dayOfBirth = ( ( (century/4) -2*year-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) % 7;
-//   var dayOfBirth = Math.floor(dayOfBirth);
+
 
   if (gender === "Male") {
        document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[dayOfBirth -1]+ " and your name is " +  maleName[dayOfBirth -1];
