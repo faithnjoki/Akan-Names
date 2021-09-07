@@ -3,30 +3,33 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="/file.css">
  <title>Java Script Project</title>
 </head>
 <body>
-<h1>Akan Names</h1>
-<p>Akan names generates users' names based on their DOB and gender</p>
- <form id="form" method="POST">
-  <fieldset>
+ <h1>Akan Names</h1>
+ <p>Akan names generates users' names based on their DOB and gender</p>
+  <form id="form" method="POST">
    <h2>Fill in the form below to know your name.</h2>
    Date:<input type="number" id="date">
-   <br><br>
+    <br><br>
    Month:<input type="number" id="month">
-   <br><br>
+    <br><br>
    Year:<input type="number" id="year">
    <br><br>
-   <select id="gender">
-    <option value="Female">Female</option>
-    <option value="Male">Male</option>
-   </select>
-   <br><br>
-   <input type="submit" value="Submit" id="submitButton" class="btn btn-primary" onclick="generateName(); return false" />
-  </fieldset>
+   <!--Radio-->
+   <input type="radio" id="female" name="gender" value="Male" required>
+   <label for="Female">Female</label>
+  <br><br>
+  <input type="radio" id="Male" name="gender" value="Male" required>
+  <label for="html">Male</label>
+  <br><br>
+  <!--Submit part-->
+  <input type="submit" value="Submit" id="submitButton" class="btn" style="font-size: 20px;" onclick="generateName(); return false;">
  </form>
- <h2 class="text-center" id="result">Results:</h2>
- 
+<h2 class="text-center" id="result">Results:</h2>
+<br><br>
+<input type="button" onclick="myFunction()" value="Reset form" style="font-size: 20px;">
 </body>
 <script src="file.js"></script>
 </html>
