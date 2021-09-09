@@ -13,7 +13,15 @@ https://faithnjoki.github.io/Akan-Names/
 
 
 ## Setup/Installation Requirements
-The link to my live projects is  It works with any browser.No bugs reported but the work is prone to change.
+The link to my live projects works with any browser.No bugs reported but the work is prone to change.
+
+## BDD
+As a user, I would like to;
+
+# See a small description of what the application does on the landing page.
+# Enter my birthday through a form.
+# Choose what gender I am.
+# Click the submit button to see day of the week i was born, age, and what my Akan name would be.
 
 ## Technologies Used
 I used html the outer part of the website and Java Script to add interactivity to my project. I used git as my version control and github to host my project.I have also used CSS.
