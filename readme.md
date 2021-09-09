@@ -8,12 +8,18 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 ## live link
 https://faithnjoki.github.io/Akan-Names/
 
+## Prerequisites
+Editor
+Live server extension
+Git
+Github account
+
 
 ## Setup/Installation Requirements
 The link to my live projects is  It works with any browser.No bugs reported but the work is prone to change.
 
 ## Technologies Used
-I used html the outer part of the website and Java Script to add interactivity to my project. I used git as my version control and github to host my project.
+I used html the outer part of the website and Java Script to add interactivity to my project. I used git as my version control and github to host my project.I have also used CSS.
 
 ## Support and contact details
 Contact me in faithnjoki81@gmail.com for any clarification.
