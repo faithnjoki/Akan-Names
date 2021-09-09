@@ -5,9 +5,9 @@ Developer: Faith Njoki Muthoni
 
 ## Description
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+## live link
+https://faithnjoki.github.io/Second-project-js-/
 
-
-The website has information about Akan names. Generates names depending on date of birth and gender. Its a  West African tribe.
 
 ## Setup/Installation Requirements
 The link to my live projects is  It works with any browser.No bugs reported but the work is prone to change.
