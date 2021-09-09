@@ -5,7 +5,6 @@ var year = document.getElementById("year").value;
 var birthDay = new Date(year+'/'+month+'/'+date);
 
 var dayOfWeek = birthDay.getDay();
-alert (birthDay);
 
 var male = document.getElementById("male").checked;
 var female = document.getElementById("female").checked;
@@ -39,6 +38,9 @@ else if((female === false) && (male === false)){
        }
   else if (female === true) {
            document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[birthDay]+ " and your name is " +  femaleName[birthDay];
+       }
+  else{
+     alert ("Please check your input") 
        }
     
 }
