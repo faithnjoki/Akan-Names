@@ -15,16 +15,16 @@ var female = document.getElementById("female").checked;
   var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   
 
-// if(date<= 0 || date> 31){
-//  alert ("Please enter valid number")
-// }
-// }
-// else if(month<=0 || month>12){
-//   alert ("Please enter valid number")
-// }
-// else if((female === false) && (male === false)){
-//   alert ("Please select gender")
-// }
+ if(date<= 0 || date> 31){
+  alert ("Please enter valid date")
+}
+
+ else if(month<=0 || month>12){
+alert ("Please enter valid month")
+ }
+else if((female === false) && (male === false)){
+ alert ("Please select gender")
+}
 
 
   if (male === true){
@@ -32,9 +32,6 @@ var female = document.getElementById("female").checked;
        }
   else if (female === true) {
            document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[birthDay]+ " and your name is " +  femaleName[birthDay];
-       }
-  else{
-     alert ("Please check your input") 
        }
     
 }
