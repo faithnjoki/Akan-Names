@@ -10,24 +10,27 @@
  <h1>Akan Names</h1>
  <p>Akan names generates users' names based on their DOB and gender</p>
   <form id="form" method="POST">
-   <h2>Fill in the form below to know your name.</h2>
-   Date:<input type="number" id="date">
+  <h2>Fill in the form below to know your name.</h2>
+    Date:<input type="number" id="date">
+     <br><br>
+    Month:<input type="number" id="month">
+     <br><br>
+    Year:<input type="number" id="year">
     <br><br>
-   Month:<input type="number" id="month">
-    <br><br>
-   Year:<input type="number" id="year">
-   <br><br>
    <!--Edited gender values-->
-   <select id="gender">
-    <option value="Female">Female</option>
-    <option value="Male">Male</option>
-   </select>
+   <label for="gender">
+    Male
+   <input type="radio" name="gender" id="male" required>
+    Female
+   <input type="radio" name="gender" id="female" required>
+   
+   </label>
+
    <br><br>
     <!--SUBMIT-->
    <input type="submit" value="Submit" id="submitButton" class="btn btn-primary" onclick="generateName(); return false"/>
+   <h2 class="text-center" id="result">Results:</h2>
  </form>
-<h2 class="text-center" id="result">Results:</h2>
-<br><br>
 </body>
 <script src="file.js"></script>
 </html>
