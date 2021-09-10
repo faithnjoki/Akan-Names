@@ -17,11 +17,12 @@ The link to my live projects works with any browser.No bugs reported but the wor
 
 ## BDD
 As a user, I would like to;
-
-<p>See a small description of what the application does on the landing page.</P>
-<p>Enter my birthday through a form.</p>
-<p>Choose what gender I am.</p>
-<p>Click the submit button to see day of the week i was born, age, and what my Akan name would be.</p>
+<ol>
+<li> See a small description of what the application does on the landing page.</li>
+<li> Enter my birthday through a form.</li>
+<li> Choose what gender I am.</li>
+<li> 4.Click the submit button to see day of the week i was born, age, and what my Akan name would be.</li>
+</ol>
 
 ## Technologies Used
 I used html the outer part of the website and Java Script to add interactivity to my project. I used git as my version control and github to host my project.I have also used CSS.
